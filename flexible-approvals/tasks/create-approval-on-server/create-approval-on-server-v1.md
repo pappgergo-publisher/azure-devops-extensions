@@ -84,19 +84,19 @@ The number of days the pipeline run containing the created approval request shou
 **`maximumVotePerPerson` - Maximum vote per person**  
 `number`. Optional. Default value: `1`.
 
-The number of votes one person can provide. If they approve or reject the approval request after having the maximum number of votes, 
+The number of votes one person can provide. If someone approves or rejects the approval request after having the maximum number of votes, 
 the oldest vote will be replaced by the new vote. This behaviour can be turned off by setting the value to `0`.
 
 **`maximumDirectVotePerPerson` - Maximum vote per person as direct approver**  
 `number`. Optional. Use when `Maximum vote per person = 0`. Default value: `0`.
 
-The number of direct votes one person can provide. If they approve or reject the approval request as direct approver after having the maximum number of direct votes, 
+The number of direct votes one person can provide. If someone approves or rejects the approval request as direct approver after having the maximum number of direct votes, 
 the oldest direct vote will be replaced by the new vote. This behaviour can be turned off by setting the value to `0`.
 
 **`maximumDelegateVotePerPerson` - Maximum vote per person as delegated approver**  
 `number`. Optional. Use when `Maximum vote per person = 0`. Default value: `0`.
 
-The number of delegated votes one person can provide. If they approve or reject the approval request as delegate after having the maximum number of delegate votes, 
+The number of delegated votes one person can provide. If someone approves or rejects the approval request as delegate after having the maximum number of delegate votes, 
 the oldest delegate vote will be replaced by the new vote. This behaviour can be turned off by setting the value to `0`.
 
 **`allowDelegates` - Allow delegates?**  
