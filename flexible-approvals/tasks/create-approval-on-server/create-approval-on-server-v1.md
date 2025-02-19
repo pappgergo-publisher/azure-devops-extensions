@@ -1,4 +1,4 @@
-# CreateApprovalOnAgent@1 - Create approval (agent) v1 task
+# CreateApprovalOnServer@1 - Create approval (server) v1 task
 
 **In this article**
 - [Syntax](#syntax)
@@ -14,7 +14,7 @@ Create an approval request without waiting for its result.
 ## Syntax
 
 ```yaml
-- task: CreateApprovalOnAgent@1
+- task: CreateApprovalOnServer@1
   inputs:
     organizationName: # string. Required. 
     approvalName: # string. Required. 
@@ -116,7 +116,7 @@ None.
 ## Remarks
 
 Use this task to create an approval request. It does not interrupt the execution of the pipeline runs, 
-but its separation from the WaitForApprovalOnAgent task is mostly due to technical reasons. 
+but its separation from the WaitForApprovalOnServer task is mostly due to technical reasons. 
 Thus even though it is possible to postpone the execution of a waiting task, it is advised to put them as close to each other as possible.
 
 ## Examples
@@ -124,36 +124,36 @@ Thus even though it is possible to postpone the execution of a waiting task, it 
 **Static approver**  
 ```yaml
 steps:
-- task: CreateApprovalOnAgent@1
+- task: CreateApprovalOnServer@1
   displayName: Create approval
   inputs:
     organizationName: example-org
-    approvalName: agent-approval
+    approvalName: server-approval
     approver: Example Approver
-- task: WaitForApprovalOnAgent@1
+- task: WaitForApprovalOnServer@1
   displayName: Wait for approval
   inputs:
     organizationName: example-org  
-    approvalName: agent-approval
+    approvalName: server-approval
 ```
 
 **Static approver list**  
 ```yaml
 steps:
-- task: CreateApprovalOnAgent@1
+- task: CreateApprovalOnServer@1
   displayName: Create approval
   inputs:
     organizationName: example-org
-    approvalName: agent-approval
+    approvalName: server-approval
     approvers: |
       Example Approver
       approver@example.com
       Example Group
-- task: WaitForApprovalOnAgent@1
+- task: WaitForApprovalOnServer@1
   displayName: Wait for approval
   inputs:
     organizationName: example-org  
-    approvalName: agent-approval
+    approvalName: server-approval
 ```
 
 **Dynamic approver list**
@@ -168,18 +168,18 @@ parameters:
   - Example Group
 
 steps:
-- task: CreateApprovalOnAgent@1
+- task: CreateApprovalOnServer@1
   displayName: Create approval
   inputs:
     organizationName: example-org
-    approvalName: agent-approval
+    approvalName: server-approval
     approvers: ${{ join(';', parameters.approvers) }}
     delimiter: ';'
-- task: WaitForApprovalOnAgent@1
+- task: WaitForApprovalOnServer@1
   displayName: Wait for approval
   inputs:
     organizationName: example-org  
-    approvalName: agent-approval
+    approvalName: server-approval
 ```
 
 **Complex configuration**
@@ -193,11 +193,11 @@ parameters:
   - Example Group 2
 
 steps:
-- task: CreateApprovalOnAgent@1
+- task: CreateApprovalOnServer@1
   displayName: Create approval
   inputs:
     organizationName: example-org
-    approvalName: agent-approval
+    approvalName: server-approval
     approver: ${{ parameters.approver }}
     retainRun: true
     retainRunForDays: 365 # Retain run for a year
@@ -208,11 +208,11 @@ steps:
     maximumVotePerPerson: 0 # Turn off maximum vote per person,
     maximumDirectVotePerPerson: 1 # and allow 1 direct
     maximumDelegateVotePerPerson: 1 # plus 1 delegated vote per person
-- task: WaitForApprovalOnAgent@1
+- task: WaitForApprovalOnServer@1
   displayName: Wait for approval
   inputs:
     organizationName: example-org  
-    approvalName: agent-approval
+    approvalName: server-approval
 ```
 
 ## Requirements
@@ -220,7 +220,7 @@ steps:
 |Requirement|Description|
 |---|---|
 |Pipeline types|YAML|
-|Runs on|Agent|
+|Runs on|Server|
 |[Demands](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/pool-demands?view=azure-pipelines)|None|
 |[Capabilities](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops#capabilities)|This task does not satisfy any demands for subsequent tasks in the job|
 |[Command restrictions](https://learn.microsoft.com/en-us/azure/devops/pipelines/security/templates?view=azure-devops#agent-logging-command-restrictions)|Any|
@@ -229,6 +229,6 @@ steps:
 |Task category|Deploy|
 
 ## See also
-- [CreateApprovalOnServer@1]()
+- [CreateApprovalOnAgent@1]()
 - [WaitForApprovalOnAgent@1]()
 - [WaitForApprovalOnServer@1]()
