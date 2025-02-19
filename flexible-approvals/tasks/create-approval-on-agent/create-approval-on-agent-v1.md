@@ -9,7 +9,6 @@
 - [Requirements](#requirements)
 - [See also](#see-also)
 
-
 Create an approval request without waiting for its result.
 
 ## Syntax
@@ -27,8 +26,8 @@ Create an approval request without waiting for its result.
     #retainRun: true # boolean. Optional. Default: true.
     #retainRunForDays: 365000 # number. Optional. Use when retainRun = true. Default: 365000.
     #maximumVotePerPerson: 1 # number. Optional. Default: 1.
-    #maximumDirectVotePerPerson: 0 # number. Optional. Use when `Maximum vote per person = 0`. Default: 0.
-    #maximumDelegateVotePerPerson: 0 # number. Optional. Use when `Maximum vote per person = 0`. Default: 0.
+    #maximumDirectVotePerPerson: 0 # number. Optional. Use when maximumVotePerPerson = 0. Default: 0.
+    #maximumDelegateVotePerPerson: 0 # number. Optional. Use when maximumVotePerPerson = 0. Default: 0.
     #allowDelegates: true # boolean. Optional. Default: true.
 ```
 
