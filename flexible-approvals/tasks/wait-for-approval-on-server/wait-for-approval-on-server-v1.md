@@ -16,9 +16,8 @@ Wait for an already created, new approval request.
 ```yaml
 - task: WaitForApprovalOnServer@1
   inputs:
-    organizationName: # string. Required. 
-    approvalName: # string. Required. 
-
+    organizationName: # string. Required.
+    approvalName: # string. Required.
 ```
 
 ## Inputs

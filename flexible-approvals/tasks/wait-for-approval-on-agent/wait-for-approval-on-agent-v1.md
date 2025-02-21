@@ -16,9 +16,9 @@ Wait for an already created, new approval request.
 ```yaml
 - task: WaitForApprovalOnAgent@1
   inputs:
-    organizationName: # string. Required. 
-    approvalName: # string. Required. 
-
+    organizationName: # string. Required.
+    approvalName: # string. Required.
+    #pollInterval: 10 # number. Optional. Default: 10.
 ```
 
 ## Inputs
