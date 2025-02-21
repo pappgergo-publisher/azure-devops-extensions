@@ -37,7 +37,7 @@ Create an approval request without waiting for its result.
 `string`. Required.
 
 Name of the Azure DevOps organization the created approval request belongs to. 
-If your Azure DevOps organization URL is https://dev.azure.com/example/, then the expected value is example.
+If your Azure DevOps organization URL is https://dev.azure.com/example/, then the expected value is `example`.
 
 **`approvalName` - Approval name**  
 `string`. Required.
@@ -49,6 +49,13 @@ Input aliases: `approvers`, `approver`. `string`. Required.
 
 Display name or email address of the people and/or groups whose members count as direct approvers and can approve/reject the created approval request. 
 It can be a list when one approver per line is provided. Or the approvers can be in one line, in that case `Approver list delimiter` needs to be set.
+
+Please note that due to technical limitations, this task can handle 10 approvers at most. In case more than 10 is provided,
+only the first 10 is used and the rest is ignored.
+
+If a group is set as an approver, it must either be an organization level group or come from the same project as the approval request.
+This restriction reduces the opportunity for a name collision. However, if in any case, more than one identity matches the approver name/email,
+always the first one found will be used.
 
 **`approverListDelimiter` - Approver list delimiter**  
 Input aliases: `approverDelimiter`, `delimiter`. `string`. Optional.
@@ -118,6 +125,9 @@ None.
 Use this task to create an approval request. It does not interrupt the execution of the pipeline runs, 
 but its separation from the WaitForApprovalOnServer task is mostly due to technical reasons. 
 Thus even though it is possible to postpone the execution of a waiting task, it is advised to put them as close to each other as possible.
+
+Please note that this task can be used instead of CreateApprovalOnAgent as the created approval request only depends on the
+input parameters, not the type of task used for the creation.
 
 ## Examples
 
@@ -229,6 +239,6 @@ steps:
 |Task category|Deploy|
 
 ## See also
-- [CreateApprovalOnAgent@1]()
-- [WaitForApprovalOnAgent@1]()
-- [WaitForApprovalOnServer@1]()
+- [CreateApprovalOnAgent@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/create-approval-on-agent/create-approval-on-agent-v1.md)
+- [WaitForApprovalOnAgent@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/wait-for-approval-on-agent/wait-for-approval-on-agent-v1.md)
+- [WaitForApprovalOnServer@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/wait-for-approval-on-server/wait-for-approval-on-server-v1.md)
