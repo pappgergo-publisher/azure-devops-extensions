@@ -22,7 +22,7 @@ Create an approval request without waiting for its result.
     #approverListDelimiter: # string. Aliases: approverDelimiter, delimiter. Optional. Use when multiple approvers are added and approverList is in one line.
     #requiredApprovedVoteCount: 1 # number. Optional. Default: 1.
     #requiredRejectedVoteCount: 1 # number. Optional. Default: 1.
-    #canApproveOwnRun: false # boolean. Optional. Default: false.
+    #allowOwnVote: false # boolean. Optional. Default: false.
     #retainRun: true # boolean. Optional. Default: true.
     #retainRunForDays: 365000 # number. Optional. Use when retainRun = true. Default: 365000.
     #maximumVotePerPerson: 1 # number. Optional. Default: 1.
@@ -72,7 +72,7 @@ The number of approved votes required to consider the created approval request a
 
 The number of rejected votes required to consider the created approval request rejected.
 
-**`canApproveOwnRun` - Can approve own run?**  
+**`allowOwnVote` - Allow own vote?**  
 `boolean`. Optional. Default value: `false`.
 
 If set to `true`, the person starting the pipeline run, which contains the created approval request, can also approve/reject it.
@@ -211,7 +211,7 @@ steps:
     approver: ${{ parameters.approver }}
     retainRun: true
     retainRunForDays: 365 # Retain run for a year
-    canApproveOwnRun: true
+    allowOwnVote: true
     requiredApprovedVoteCount: 2 # Require two approved,
     requiredRejectedVoteCount: 2 # or two rejected votes to complete the request
     allowDelegates: true
