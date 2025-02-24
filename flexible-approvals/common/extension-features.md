@@ -3,7 +3,6 @@
 **In this article**
 - [Features](#features)
 - [Disabling](#disabling)
-- [Note](#note)
 - [See also](#see-also)
 
 Allow selective disabling of the Flexible Approvals extension's capabilities.
