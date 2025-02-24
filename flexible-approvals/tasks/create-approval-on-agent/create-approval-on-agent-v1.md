@@ -239,3 +239,4 @@ steps:
 - [CreateApprovalOnServer@1](/flexible-approvals/tasks/create-approval-on-server/create-approval-on-server-v1.md)
 - [WaitForApprovalOnAgent@1](/flexible-approvals/tasks/wait-for-approval-on-agent/wait-for-approval-on-agent-v1.md)
 - [WaitForApprovalOnServer@1](/flexible-approvals/tasks/wait-for-approval-on-server/wait-for-approval-on-server-v1.md)
+- [Glossary](/flexible-approvals/common/gloassary.md)

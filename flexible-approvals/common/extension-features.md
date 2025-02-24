@@ -11,7 +11,7 @@ Allow selective disabling of the Flexible Approvals extension's capabilities.
 ## Features
 
 Features or preview features (as the Azure DevOps UI presents it) is a mechanism which makes selective enabling or disabling of certain features. 
-Microsoft uses it mostly to introduce preview elements and allow users to opt-out of them in case they cause a problem or the users don't like it.
+Microsoft uses it mostly to introduce preview elements and allow users to opt-in to try them out, or opt-out in case they are unwanted for any reason.
 
 Extensions can use the same features menu and include their capabilities in the list. 
 The Flexible Approvals extension does so, which allows you to control what you/your project/your organization want to use and what should be hidden.
@@ -38,7 +38,7 @@ Turning it off for the organization is almost equivalent to not having the exten
 ### Approval Tab
 
 Controls whether the [approval tab](/flexible-approvals/tabs/approval-tab.md) should be added to the pipeline runs or not. 
-Please note that turning it off makes the Own approval hub the only place to cast approval votes.
+Please note that turning it off makes the own approval hub the only place to cast approval votes.
 
 **Available levels:**
 - Organization
@@ -62,6 +62,7 @@ Controls whether the [approval hub](/flexible-approvals/hubs/approval-hub.md) sh
 ### Approval Hub: Own
 
 Controls whether the [approval hub](/flexible-approvals/hubs/approval-hub.md) should be present in the pipelines menu.
+Please note that turning it off makes the approval tab the only place to cast approval votes.
 
 **Available levels:**
 - Organization
@@ -116,3 +117,4 @@ Controls whether the [delegate widget](/flexible-approvals/widgets/delegate-widg
 - [Approval widget](/flexible-approvals/widgets/approval-widget.md)
 - [Delegate hub](/flexible-approvals/hubs/delegate-hub.md)
 - [Delegate widget](/flexible-approvals/widgets/delegate-widget.md)
+- [Glossary](/flexible-approvals/common/gloassary.md)

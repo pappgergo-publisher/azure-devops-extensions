@@ -32,3 +32,4 @@ For the details, please see the [Extension features](/flexible-approvals/common/
 ## See also
 
 - [Extension features](/flexible-approvals/common/extension-features.md)
+- [Glossary](/flexible-approvals/common/gloassary.md)
