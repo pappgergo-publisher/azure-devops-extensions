@@ -1,8 +1,8 @@
 # Glossary
 
 **In this article**
-- [Terms](terms)
-- [See also](see-also)
+- [Terms](#terms)
+- [See also](#see-also)
 
 List of all frequently used words and expressions related to the Flexible Approvals extension.
 
