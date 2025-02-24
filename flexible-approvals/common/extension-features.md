@@ -10,18 +10,17 @@ Allow selective disabling of the Flexible Approvals extension's capabilities.
 
 ## Features
 
-Features or preview features (as the Azure DevOps UI presents it) is a mechanism which makes selective
-enabling or disabling of certain features. Microsoft uses it mostly to introduce preview elements and 
-allow users to opt-out of them in case they cause a problem or the users don't like it.
+Features or preview features (as the Azure DevOps UI presents it) is a mechanism which makes selective enabling or disabling of certain features. 
+Microsoft uses it mostly to introduce preview elements and allow users to opt-out of them in case they cause a problem or the users don't like it.
 
 Extensions can use the same features menu and include their capabilities in the list. 
-The Flexible Approvals extension does so, which allows you to control what you/your project/your organization
-want to use and what should be hidden.
+The Flexible Approvals extension does so, which allows you to control what you/your project/your organization want to use and what should be hidden.
 
 ## Disabling
 
-By default all features of the extension is turned on. In case one feature is not needed, it is possible to
-turn it off on 1, 2 or 3 different levels (depending on the feature). These levels are organization, project and personal. 
+By default all features of the extension is turned on.
+In case one feature is not needed, it is possible to turn it off on 1, 2 or 3 different levels (depending on the feature).
+These levels are organization, project and personal. 
 Unlike in Microsoft provided feature's case, if something is turned off on a higher level, that element cannot be turned on for a lower feature level. 
 Thus it is not possible to configure "exceptions" for projects or users.
 
@@ -47,14 +46,14 @@ Please note that turning it off makes the Own approval hub the only place to cas
 
 ### Approval Hub: Organization
 
-Controls whether the approval hub should be present in the organization settings.
+Controls whether the [approval hub](/flexible-approvals/hubs/approval-hub.md) should be present in the organization settings.
 
 **Available levels:**
 - Organization
 
 ### Approval Hub: Project
 
-Controls whether the approval hub should be present in the project settings.
+Controls whether the [approval hub](/flexible-approvals/hubs/approval-hub.md) should be present in the project settings.
 
 **Available levels:**
 - Organization
@@ -62,7 +61,7 @@ Controls whether the approval hub should be present in the project settings.
 
 ### Approval Hub: Own
 
-Controls whether the approval hub should be present in the pipelines menu.
+Controls whether the [approval hub](/flexible-approvals/hubs/approval-hub.md) should be present in the pipelines menu.
 
 **Available levels:**
 - Organization
@@ -71,7 +70,7 @@ Controls whether the approval hub should be present in the pipelines menu.
 
 ### Approval Widget
 
-Controls whether the approval widget should be available to add to dashboards.
+Controls whether the [approval widget](/flexible-approvals/widgets/approval-widget.md) should be available to add to dashboards.
 
 **Available levels:**
 - Organization
@@ -79,14 +78,14 @@ Controls whether the approval widget should be available to add to dashboards.
 
 ### Delegate Hub: Organization
 
-Controls whether the delegate hub should be present in the organization settings.
+Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the organization settings.
 
 **Available levels:**
 - Organization
 
 ### Delegate Hub: Project
 
-Controls whether the delegate hub should be present in the project settings.
+Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the project settings.
 
 **Available levels:**
 - Organization
@@ -94,7 +93,7 @@ Controls whether the delegate hub should be present in the project settings.
 
 ### Delegate Hub: Own
 
-Controls whether the delegate hub should be present in the pipelines menu.
+Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the pipelines menu.
 
 **Available levels:**
 - Organization
@@ -103,7 +102,7 @@ Controls whether the delegate hub should be present in the pipelines menu.
 
 ### Delegate Widget
 
-Controls whether the delegate widget should be available to add to dashboards.
+Controls whether the [delegate widget](/flexible-approvals/widgets/delegate-widget.md) should be available to add to dashboards.
 
 **Available levels:**
 - Organization
@@ -113,3 +112,7 @@ Controls whether the delegate widget should be available to add to dashboards.
 
 - [Preview features](https://learn.microsoft.com/en-us/azure/devops/project/navigation/preview-features?view=azure-devops)
 - [Approval tab](/flexible-approvals/tabs/approval-tab.md)
+- [Approval hub](/flexible-approvals/hubs/approval-hub.md)
+- [Approval widget](/flexible-approvals/widgets/approval-widget.md)
+- [Delegate hub](/flexible-approvals/hubs/delegate-hub.md)
+- [Delegate widget](/flexible-approvals/widgets/delegate-widget.md)

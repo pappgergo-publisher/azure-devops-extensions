@@ -236,6 +236,6 @@ steps:
 |Task category|Deploy|
 
 ## See also
-- [CreateApprovalOnServer@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/create-approval-on-server/create-approval-on-server-v1.md)
-- [WaitForApprovalOnAgent@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/wait-for-approval-on-agent/wait-for-approval-on-agent-v1.md)
-- [WaitForApprovalOnServer@1](https://github.com/pappgergo-publisher/azure-devops-extensions/blob/main/flexible-approvals/tasks/wait-for-approval-on-server/wait-for-approval-on-server-v1.md)
+- [CreateApprovalOnServer@1](/flexible-approvals/tasks/create-approval-on-server/create-approval-on-server-v1.md)
+- [WaitForApprovalOnAgent@1](/flexible-approvals/tasks/wait-for-approval-on-agent/wait-for-approval-on-agent-v1.md)
+- [WaitForApprovalOnServer@1](/flexible-approvals/tasks/wait-for-approval-on-server/wait-for-approval-on-server-v1.md)
