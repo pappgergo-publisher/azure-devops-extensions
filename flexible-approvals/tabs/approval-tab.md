@@ -27,8 +27,8 @@ If any of the approval requests is waiting for approval, their approvers can cas
 ## Disabling
 
 It is possible to disable the approval tab for the whole organization or for individual projects. 
-For the details, please see the [Extension features]().
+For the details, please see the [Extension features](/common/extension-features.md).
 
 ## See also
 
-- [Extension features]()
+- [Extension features](/flexible-approvals/common/extension-features.md)
