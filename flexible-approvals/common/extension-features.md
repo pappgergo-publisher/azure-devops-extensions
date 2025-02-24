@@ -116,4 +116,4 @@ Controls whether the [delegate widget](/flexible-approvals/widgets/delegate-widg
 - [Approval widget](/flexible-approvals/widgets/approval-widget.md)
 - [Delegate hub](/flexible-approvals/hubs/delegate-hub.md)
 - [Delegate widget](/flexible-approvals/widgets/delegate-widget.md)
-- [Glossary](/flexible-approvals/common/gloassary.md)
+- [Glossary](/flexible-approvals/common/glossary.md)
