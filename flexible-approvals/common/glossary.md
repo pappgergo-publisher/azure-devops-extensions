@@ -28,6 +28,12 @@ For more details on such configurations, see
 
 ##
 
+**Approve**
+
+Casting an approved vote.
+
+##
+
 **Approver**
 
 A person or a group that can cast the vote to approve or reject an approval request.
@@ -66,7 +72,13 @@ A person or group that is allowed to cast approver votes in the name of the dele
 
 **Delegated approver**
 
-A person or group that is considered as approver due to being a delegate.
+A person or group that is considered as approver due to being a delegate a direct approver or member of a direct approver group.
+
+##
+
+**Delegated vote**
+
+A vote cast by a delegated approver or member of a delegated approver group.
 
 ##
 
@@ -85,6 +97,12 @@ A person who has one or more delegates.
 **Direct approver**
 
 A person or group that is considered as approver due to being directly referenced in the approval request configuration.
+
+##
+
+**Direct vote**
+
+A vote cast by a direct approver or member of a direct approver group.
 
 ##
 
@@ -107,7 +125,7 @@ Examples of hub groups are Overview, Boards, Repos, Pipelines, Artifacts, Test P
 
 **Job**
 
-Execution or organization unit a pipeline. It contains the tasks to execute.
+Execution or organization unit a pipeline. A job contains tasks to execute.
 
 For more details on jobs, see [Specify jobs in your pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops).
 
@@ -148,6 +166,20 @@ For more details on pipeline runs, see [Pipeline runs](https://learn.microsoft.c
 
 ##
 
+**Reject**
+
+Casting a rejected vote.
+
+##
+
+**Stage**
+
+Organization unit a pipeline, a logical boundary in pipelines. A stage contains jobs.
+
+For more details on stages, see [Add stages, dependencies, & conditions](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages?view=azure-devops).
+
+##
+
 **Tab**
 
 A tab is part of pipeline run's user interface which allows switching the content to show about the pipeline run.
@@ -158,7 +190,7 @@ A tab is part of pipeline run's user interface which allows switching the conten
 
 A task performs an action in a pipeline. The extension provides tasks to create approval requests and wait for the approval decision.
 
-For more details on pipeline runs, see [Azure Pipelines task reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/?view=azure-pipelines).
+For more details on tasks, see [Azure Pipelines task reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/?view=azure-pipelines).
 
 ##
 
@@ -171,6 +203,7 @@ For more details on widgets, see [Add widgets to a dashboard](https://learn.micr
 ## See also
 
 - [About projects](https://learn.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops)
+- [Add stages, dependencies, & conditions](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages?view=azure-devops)
 - [Add widgets to a dashboard](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/add-widget-to-dashboard)
 - [Azure Pipelines task reference](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/?view=azure-pipelines)
 - [Dashboards](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/overview?view=azure-devops)
