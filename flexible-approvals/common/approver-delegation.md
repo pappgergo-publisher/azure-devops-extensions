@@ -20,7 +20,7 @@ The person who creates the delegation and becomes the delegator.
 
 The time of the approver delegation's creation in milliseconds.
 
-![Identification](/flexible-approvals/images/common/approver-delegation/identification.md)
+![Identification](/flexible-approvals/images/common/approver-delegation/identification.png)
 
 ## Delegate configuration
 
@@ -41,7 +41,7 @@ The list of delegates for the delegator. A delegate can be a person or a group a
 The scope in which the delegates will become able to cast votes instead of the delegator.
 It can either be the whole organization or the project in which the delegation is created.
 
-![Delegate configuration](/flexible-approvals/images/common/approver-delegation/delegate-configuration.md)
+![Delegate configuration](/flexible-approvals/images/common/approver-delegation/delegate-configuration.png)
 
 ## Delegation timeframe
 
@@ -68,7 +68,7 @@ An approver delegation is
 - ended, if it is not cancelled and the current time is after its end time
 - cancelled, if the the cancel action was used on it
 
-![Delegation timeframe](/flexible-approvals/images/common/approver-delegation/delegation-timeframe.md)
+![Delegation timeframe](/flexible-approvals/images/common/approver-delegation/delegation-timeframe.png)
 
 ## See also
 
