@@ -76,24 +76,24 @@ Controls whether the [approval widget](/flexible-approvals/widgets/approval-widg
 - Organization
 - Project
 
-### Delegate Hub: Organization
+### Delegation Hub: Organization
 
-Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the organization settings.
+Controls whether the [delegation hub](/flexible-approvals/hubs/delegation-hub.md) should be present in the organization settings.
 
 **Available levels:**
 - Organization
 
-### Delegate Hub: Project
+### Delegation Hub: Project
 
-Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the project settings.
+Controls whether the [delegation hub](/flexible-approvals/hubs/delegation-hub.md) should be present in the project settings.
 
 **Available levels:**
 - Organization
 - Project
 
-### Delegate Hub: Own
+### Delegation Hub: Own
 
-Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) should be present in the pipelines menu.
+Controls whether the [delegation hub](/flexible-approvals/hubs/delegation-hub.md) should be present in the pipelines menu.
 
 **Available levels:**
 - Organization
@@ -102,7 +102,7 @@ Controls whether the [delegate hub](/flexible-approvals/hubs/delegate-hub.md) sh
 
 ### Delegate Widget
 
-Controls whether the [delegate widget](/flexible-approvals/widgets/delegate-widget.md) should be available to add to dashboards.
+Controls whether the [delegation widget](/flexible-approvals/widgets/delegation-widget.md) should be available to add to dashboards.
 
 **Available levels:**
 - Organization
@@ -114,6 +114,6 @@ Controls whether the [delegate widget](/flexible-approvals/widgets/delegate-widg
 - [Approval tab](/flexible-approvals/tabs/approval-tab.md)
 - [Approval hub](/flexible-approvals/hubs/approval-hub.md)
 - [Approval widget](/flexible-approvals/widgets/approval-widget.md)
-- [Delegate hub](/flexible-approvals/hubs/delegate-hub.md)
-- [Delegate widget](/flexible-approvals/widgets/delegate-widget.md)
+- [Delegation hub](/flexible-approvals/hubs/delegation-hub.md)
+- [Delegation widget](/flexible-approvals/widgets/delegation-widget.md)
 - [Glossary](/flexible-approvals/common/glossary.md)
