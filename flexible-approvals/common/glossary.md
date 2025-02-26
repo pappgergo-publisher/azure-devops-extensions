@@ -42,6 +42,15 @@ An approval request can have more than one approver as well.
 
 ##
 
+**Approver role**
+
+The approver role describes why a person is considered and approver.
+
+Approver role can be direct approver, member of a direct approver group, 
+delegate of a direct approver and member of a delegate group.
+
+##
+
 **Approver vote**
 
 The decision of one person who is either named as approver of part of an approver group.
