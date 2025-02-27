@@ -203,6 +203,12 @@ For more details on tasks, see [Azure Pipelines task reference](https://learn.mi
 
 ##
 
+**Voter**
+
+An approver who has already casted their vote on an approval request is considered as a voter of the said request.
+
+##
+
 **Widget**
 
 A widgets is a tool to smartly format data and make them easily consumable. Widgets are placed into dashboards.
