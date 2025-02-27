@@ -26,28 +26,28 @@ The following filter options are present for approval requests.
 
 **Approval - States**
 
-Input: multiselect list of state names
+Input: multiselect list of state names   
 Values: `new`, `waiting`, `approved`, `rejected`, `cancelled`
 
 Matches approval requests with any of the selected states.
 
 **Approval - Names**
 
-Input: multiselect list of approval request names
+Input: multiselect list of approval request names   
 Values: collection of exisiting approval request names
 
 Matches approval requests with any of the selected approval names.
 
 **Approval - Attempts**
 
-Input: multiselect list of stage attempt numbers
+Input: multiselect list of stage attempt numbers   
 Values: collection of exisiting approval request stage attempts
 
 Matches approval requests run in any of the selected stage attempts.
 
 **Project**
 
-Input: multiselect list of project names
+Input: multiselect list of project names   
 Values: collection of exisiting approval request project names
 
 Matches approval requests contained by any of the selected projects.
@@ -55,22 +55,22 @@ Not available in the own and project hub pages and in widgets with project scope
 
 **Pipeline run - Pipelines**
 
-Input: multiselect list of pipeline names
+Input: multiselect list of pipeline names   
 Values: collection of exisiting approval request pipeline runs
 
 Matches approval requests contained by any of the selected pipelines.
 
 **Pipeline run - Runs**
 
-Input: multiselect list of pipeline run numbers
+Input: multiselect list of pipeline run numbers   
 Values: collection of exisiting approval request pipeline run numbers
 
 Matches approval requests contained by any of the selected pipeline runs.
 
 **Votes - Voters**
 
-Input: multiselect list of people and groups
-Form values: search from all available people and groups
+Input: multiselect list of people and groups   
+Form values: search from all available people and groups   
 Bar values: collection of approvers and voters of existing approval requests
 
 If used without the `decision` filter, matches approval requests having votes with any of the selected people or any member of the selected groups as voter.
@@ -80,7 +80,7 @@ For more details on how the combined filter work, please check Votes - Decisions
 
 **Votes - Decisions**
 
-Input: multiselect list of decision name
+Input: multiselect list of decision name   
 Values: not voted, approved, rejected
 
 If used without the `voters` filter, matches approval requests with
@@ -95,7 +95,7 @@ If used with the `voters` filter, matches approval requests with
 
 **Votes - Last vote (after)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approval requests with their most recent votes casted after the selected time.
@@ -106,7 +106,7 @@ If used with `last vote (before)` filter, and `never` is set as value, the `last
 
 **Votes - Last vote (before)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approval requests with their most recent votes casted before the selected time.
@@ -117,15 +117,15 @@ If used with `last vote (after)` filter, and `never` is set as value, the `last 
 
 **Approvers - Approvers**
 
-Input: multiselect list of people and groups
-Form values: search from all available people and groups
+Input: multiselect list of people and groups   
+Form values: search from all available people and groups   
 Bar values: collection of approvers and voters of existing approval requests
 
 Matches approval requests with their approver list containing at least one of the selected approvers (after group resolution).
 
 **Approvers - Group resolution**
 
-Input: single select list of group resolution options
+Input: single select list of group resolution options   
 Values: `do no resolve`, `users and groups`, `only users`, `only groups`
 
 Helper filter that does not match anything alone, but changes the behaviour of how `approvers` filter work.
@@ -139,8 +139,8 @@ Not selecting a `group resolution` is equivalent of using `do not resolve`.
 
 **Keywords**
 
-Form input: not available
-Bar input: free text
+Form input: not available   
+Bar input: free text   
 Values: multiple words
 
 A generic filter that can be used to replace or extend most of the filters above.
@@ -159,21 +159,21 @@ Matches those approval requests in which every word in the filter value is match
 
 **Delegation -  States**
 
-Input: multiselect list of state names
+Input: multiselect list of state names   
 Values: `inactive`, `active`, `ended`, `cancelled`
 
 Matches approver delegations with any of the selected states. 
 
 **Delegation - Names**
 
-Input: multiselect list of approver delegation names
+Input: multiselect list of approver delegation names   
 Values: collection of exisiting approver delegation names
 
 Matches approver delegations with any of the selected delegation names.
 
 **Timeframe - Start time (after)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approver delegations that start after the selected time.
@@ -183,7 +183,7 @@ If used with `start time (before)` filter, and `never` is set as value, the `sta
 
 **Timeframe - Start time (before)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approver delegations that start before the selected time.
@@ -193,7 +193,7 @@ If used with `start time (after)` filter, and `never` is set as value, the `star
 
 **Timeframe - End time (after)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approver delegations that end after the selected time.
@@ -203,7 +203,7 @@ If used with `end time (before)` filter, and `never` is set as value, the `end t
 
 **Timeframe - End time (before)**
 
-Input: single select list of time reference values
+Input: single select list of time reference values   
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approver delegations that end before the selected time.
