@@ -37,7 +37,7 @@ Both the width and the height can be set from `2` to `7`.
 **Fields**
 
 Fields determine which columns are added to the widget and in which order.
-The following fields are available for selection: `Approval`, `Pipeline run`, `Votes`, `Approvers`
+The following fields are available for selection: `Approval`, `Pipeline run`, `Votes`, `Approvers`.
 
 **Order by**
 
@@ -49,7 +49,7 @@ The following values are available:
 - `Pipeline run - descending`: orders by the pipeline name, then pipeline run number descending
 - `Votes - ascending`: orders by the last vote's time ascending (approval requests without votes become firsts in the list)
 - `Votes - descending`: orders by the last vote's time descending (approval requests without votes become lasts in the list)
-- `Approvers - ascending`: orders by the approver display names ascending (without changing the list order, short lists become firsts)
+- `Approvers - ascending`: orders by the approver display names ascending (without changing the list order, shorter lists become firsts)
 - `Approvers - descending`: orders by the approver display names descending (without changing the list order, longer lists become firsts)
 
 **Scope**
@@ -64,7 +64,7 @@ In case of `Organization`, all approval requests are used.
 **Filters**
 
 The filters to use for narrowing down the list of in-scope approval requests.
-For the available options, please check [Filtering](/flexible-approvals/common/filtering.md#approval-requests)
+For the available options, please check [Filtering](/flexible-approvals/common/filtering.md#approval-requests).
 
 ## Disabling
 

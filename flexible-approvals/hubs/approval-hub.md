@@ -81,7 +81,7 @@ It is possible to disable the approval hub pages on these levels:
 - project hub: organization, project
 - own hub: organization, project, personal
 
-For the details, please see the [Extension features](/flexible-approvals/common/extension-features.md).
+For the details, please see the [Extension features](/flexible-approvals/common/extension-features.md#approval-requests).
 
 ## See also
 

@@ -83,7 +83,7 @@ thus delegations cannot be created in other people's name.
 ## Filtering
 
 The delegation hub allows filtering of the presented approver delegations.
-For the description of the individual filters, please check [Filtering](/flexible-approvals/common/filtering.md).
+For the description of the individual filters, please check [Filtering](/flexible-approvals/common/filtering.md#approver-delegations).
 
 ## Disabling
 
