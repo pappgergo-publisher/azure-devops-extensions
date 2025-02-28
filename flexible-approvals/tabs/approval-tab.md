@@ -24,6 +24,8 @@ If any of the approval requests is waiting for approval, their approvers can cas
 ![View of waiting approval requests as approver](/flexible-approvals/images/tabs/approval-tab/approver-view.png)
 ![Casting a vote](/flexible-approvals/images/tabs/approval-tab/casting-vote.png)
 
+For more details on votes, please check [Casting votes](/flexible-approvals/common/casting-votes.md).
+
 ## Disabling
 
 It is possible to disable the approval tab for the whole organization or for individual projects. 
@@ -31,5 +33,6 @@ For the details, please see the [Extension features](/flexible-approvals/common/
 
 ## See also
 
+- [Casting votes](/flexible-approvals/common/casting-votes.md)
 - [Extension features](/flexible-approvals/common/extension-features.md)
 - [Glossary](/flexible-approvals/common/glossary.md)
