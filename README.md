@@ -1,4 +1,4 @@
-# Extensions
+# Azure DevOps extensions
 
 **In this article**
 - [Extensions](#extensions)
