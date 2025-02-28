@@ -274,4 +274,8 @@ Please note that the `keywords` filter is case sensitive.
 
 - [Approval request](/flexible-approvals/common/approval-request.md)
 - [Approver delegation](/flexible-approvals/common/approver-delegation.md)
+- [Approval hub](/flexible-approvals/hubs/approval-hub.md)
+- [Approval widget](/flexible-approvals/widgets/approval-widget.md)
+- [Delegation hub](/flexible-approvals/hubs/delegation-hub.md)
+- [Delegation widget](/flexible-approvals/widgets/delegation-widget.md)
 - [Glossary](/flexible-approvals/common/glossary.md)
