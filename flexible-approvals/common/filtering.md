@@ -70,7 +70,7 @@ Matches approval requests contained by any of the selected pipeline runs.
 **Votes - Voters**
 
 Input: multiselect list of people and groups   
-Form values: search from all available people and groups   
+Form values: search from all available people and groups (based on display name and email address)   
 Bar values: collection of approvers and voters of existing approval requests
 
 If used without the `decision` filter, matches approval requests having votes with any of the selected people or any member of the selected groups as voter.
@@ -118,7 +118,7 @@ If used with `last vote (after)` filter, and `never` is set as value, the `last 
 **Approvers - Approvers**
 
 Input: multiselect list of people and groups   
-Form values: search from all available people and groups   
+Form values: search from all available people and groups (based on display name and email address)   
 Bar values: collection of approvers and voters of existing approval requests
 
 Matches approval requests with their approver list containing at least one of the selected approvers (after group resolution).
@@ -151,9 +151,10 @@ It tries to match the words in the filter value against
 - pipeline name
 - pipeline run number
 - approval request state
-- approver display names (separated by comma)
+- approver display names
 
 Matches those approval requests in which every word in the filter value is matched to something in the listed attributes.
+Please note that the `keywords` filter is case sensitive.
 
 ## Approver delegations
 
@@ -213,28 +214,61 @@ If used with `end time (after)` filter, and `never` is set as value, the `end ti
 
 **Timeframe - Scope**
 
-Form input:
-Bar input: 
+Input: multiselect list of the organization and project names   
+Values: collection of scope names of existing approver delegations
+
+Matches approver delegations with any of the selected scopes.
+Not available in the in widgets and has the values limited to the organization and the current project in the own and project hub pages.
 
 **Delegators - Delegators**
 
-Form input:
-Bar input: 
+Input: multiselect list of people and groups   
+Form values: search from all available people and groups (based on display name and email address)   
+Bar values: collection of delegators and delegates of existing approver delegations
+
+Matches approver delegations having the selected people or any member of the selected groups as delegator.
 
 **Delegates - Delegates**
 
-Form input:
-Bar input: 
+Input: multiselect list of people and groups   
+Form values: search from all available people and groups (based on display name and email address)   
+Bar values: collection of delegators and delegates of existing approver delegations
+
+Matches approver delegations with their delegate list containing at least one of the selected delegates (after group resolution).
 
 **Delegates - Group resolution**
 
-Form input:
-Bar input: 
+Input: single select list of group resolution options   
+Values: `do no resolve`, `users and groups`, `only users`, `only groups`
+
+Helper filter that does not match anything alone, but changes the behaviour of how `delegates` filter work.
+If a group is selected as a delegate, it means different users and groups according to different resolution options:
+- `do not resolve`: only the selected group, no group members are considered
+- `users and groups`: resolve the group memberships and use all direct and indirect members (including the selected group itself)
+- `only users`: resolve the group memberships and use all direct and indirect user members
+- `only groups`: resolve the group memberships and use all direct and indirect group members (including the selected group itself)
+
+Not selecting a `group resolution` is equivalent of using `do not resolve`.
 
 **Keywords**
 
-Form input:
-Bar input: 
+Form input: not available   
+Bar input: free text   
+Values: multiple words
+
+A generic filter that can be used to replace or extend most of the filters above.
+It tries to match the words in the filter value against
+- start time
+- end time
+- scope
+- delegation name
+- pipeline run number
+- delegator display name
+- delegate display names
+- delegation state
+
+Matches those approver delegations in which every word in the filter value is matched to something in the listed attributes.
+Please note that the `keywords` filter is case sensitive.
 
 ## See also
 
