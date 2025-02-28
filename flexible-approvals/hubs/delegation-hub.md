@@ -24,7 +24,7 @@ They are located at a different place, use a different list of approver delegati
 
 ### Project
 
-**Approver delegations:** every approver delegations with organization or current project scope 
+**Approver delegations:** every approver delegations with organization or current project scope   
 **Actions:** cancel, delete   
 **Location**: under the `Project settings` hub group
 
@@ -42,7 +42,7 @@ They are located at a different place, use a different list of approver delegati
 
 ### Own - My delegators
 
-**Approver delegations:** every approver delegations with organization or current project scope having the current user as delegator 
+**Approver delegations:** every approver delegations with organization or current project scope having the current user as delegator   
 **Actions:** none   
 **Location**: under the `Pipelines` hub group (using the `My delegators` tab)
 
