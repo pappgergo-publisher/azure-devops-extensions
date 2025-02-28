@@ -89,7 +89,7 @@ If used without the `voters` filter, matches approval requests with
 - at least 1 rejected vote (`rejected`)
 
 If used with the `voters` filter, matches approval requests with
-- no votes received so far from the selected voters (`not voted`)
+- no votes received so far from any of the selected voters (`not voted`)
 - at least 1 approved vote from any of the selected voters (`approved`)
 - at least 1 rejected vote from any of the selected voters (`rejected`)
 
@@ -110,7 +110,7 @@ Input: single select list of time reference values
 Values: `now`, `1 day ago`, `3 days ago`, `7 days ago`, `15 days ago`, `30 days ago`, `60 days ago`, `90 days ago`, `180 days ago`, `365 days ago`, `never`
 
 Matches approval requests with their most recent votes casted before the selected time.
-Using `now` matches all approval requests, as every vote happened in the past.
+Using `now` matches all approval requests with at least one vote, as every vote happened in the past.
 Using `never` matches only those approval requests that received no votes so far.
 
 If used with `last vote (after)` filter, and `never` is set as value, the `last vote (after)` is ignored unless it is also set to `never`.
