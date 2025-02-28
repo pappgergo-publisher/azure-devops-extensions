@@ -8,7 +8,7 @@ List extension documentations within this repository.
 
 ## Extensions
 
-This repository contains documentation for extensions developed by Gergı Papp.
+This repository contains documentation for extensions developed by Gerg≈ë Papp.
 Currently there's 1 extension you can find here:
 - Flexible Approvals
 
