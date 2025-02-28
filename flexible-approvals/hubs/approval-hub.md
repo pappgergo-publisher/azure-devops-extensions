@@ -11,28 +11,22 @@ Show approval requests and allow actions on them.
 
 ## Usage
 
-There are 3 different approval 3 pages: organization, project and own. 
+There are 3 different approval pages: organization, project and own. 
 They are located at a different place, use a different list of approval requests and allow different actions.
 
 ### Organization
 
 **Approval requests:** every approval requests in the organization   
-**Actions:**
-- cancel
-- delete
-
-**Location**: under the organization settings
+**Actions:** cancel, delete   
+**Location**: under the `Organization settings` hub group
 
 ![Organization hub](/flexible-approvals/images/hubs/approval-hub/organization-hub.png)
 
 ### Project
 
 **Approval requests:** every approval requests in the current project   
-**Actions:**
-- cancel
-- delete
-
-**Location**: under the project settings
+**Actions:** cancel, delete   
+**Location**: under the `Project settings` hub group
 
 ![Project hub](/flexible-approvals/images/hubs/approval-hub/project-hub.png)
 
@@ -40,11 +34,8 @@ They are located at a different place, use a different list of approval requests
 
 **Approval requests:** every approval requests in the current project having the current user as approver or voter
 (delegates are only included for waiting approval requests)   
-**Actions:**
-- approve
-- reject
-
-**Location**: under the project settings
+**Actions:** approve, reject   
+**Location**: under the `Pipelines` hub group
 
 ![Own hub](/flexible-approvals/images/hubs/approval-hub/own-hub.png)
 
