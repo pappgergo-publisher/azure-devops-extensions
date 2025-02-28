@@ -28,27 +28,27 @@ projects or for the whole organization.
 
 **Tasks**
 
-![Create approval task](/flexible-approvals/images/readme/create-approval-task.md)
+![Create approval task](/flexible-approvals/images/readme/create-approval-task.png)
 
-![Wait for approval task](/flexible-approvals/images/readme/wait-for-approval-task.md)
+![Wait for approval task](/flexible-approvals/images/readme/wait-for-approval-task.png)
 
 **Tab**
 
-![Approval tab](/flexible-approvals/images/readme/approval-tab.md)
+![Approval tab](/flexible-approvals/images/readme/approval-tab.png)
 
 **Hubs**
 
-![Approval hub](/flexible-approvals/images/readme/approval-hub.md)
+![Approval hub](/flexible-approvals/images/readme/approval-hub.png)
 
-![Delegation hub](/flexible-approvals/images/readme/delegation-hub.md)
+![Delegation hub](/flexible-approvals/images/readme/delegation-hub.png)
 
 **Widgets**
 
-![Dashboard](/flexible-approvals/images/readme/dashboard.md)
+![Dashboard](/flexible-approvals/images/readme/dashboard.png)
 
 **Features**
 
-![Features](/flexible-approvals/images/readme/features.md)
+![Features](/flexible-approvals/images/readme/features.png)
 
 ## Disclaimer
 
