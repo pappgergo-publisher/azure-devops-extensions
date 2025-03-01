@@ -57,8 +57,11 @@ In case your processes must comply with audit requirements, please make sure tha
 
 ## Suggestions and issues
 
-Should you have any feedback, improvement idea, suggestion regarding the extension or want to report an issue,
-please feel free to open a [Github issue](https://github.com/pappgergo-publisher/azure-devops-extensions/issues).
+Should you have any feedback, improvement idea, or suggestion regarding the extension,
+please feel free to start a [Github discussion](https://github.com/pappgergo-publisher/azure-devops-extensions/discussions).
+
+In case you want to report an issue,
+please open a [Github issue](https://github.com/pappgergo-publisher/azure-devops-extensions/issues).
 
 ## See also
 
@@ -73,4 +76,5 @@ please feel free to open a [Github issue](https://github.com/pappgergo-publisher
 - [Approval widget](/flexible-approvals/widgets/approval-widget.md)
 - [Delegation widget](/flexible-approvals/widgets/delegation-widget.md)
 - [Extension features](/flexible-approvals/common/extension-features.md)
+- [Discussion](https://github.com/pappgergo-publisher/azure-devops-extensions/discussions)
 - [Issue](https://github.com/pappgergo-publisher/azure-devops-extensions/issues)
