@@ -57,7 +57,7 @@ In case your processes must comply with audit requirements, please make sure tha
 
 ## Suggestions and issues
 
-Should you have any feedback, improvement idea, suggestion regarding the extension, or want to report an issue
+Should you have any feedback, improvement idea, suggestion regarding the extension or want to report an issue,
 please feel free to open a [Github issue](https://github.com/pappgergo-publisher/azure-devops-extensions/issues).
 
 ## See also

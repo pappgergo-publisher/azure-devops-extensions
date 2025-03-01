@@ -122,6 +122,9 @@ Form values: search from all available people and groups (based on display name 
 Bar values: collection of approvers and voters of existing approval requests
 
 Matches approval requests with their approver list containing at least one of the selected approvers (after group resolution).
+The approver groups of the approval requests are automatically resolved, thus if `user` is member of `group`, an approvers filter with value `user`
+matches an approval request whose only approver is `group`.
+Additionally if an approval request is waiting for votes and it allowes delegates, its approvers' delegates are also automatically included into the approver list.
 
 **Approvers - Group resolution**
 
@@ -129,11 +132,11 @@ Input: single select list of group resolution options
 Values: `do no resolve`, `users and groups`, `only users`, `only groups`
 
 Helper filter that does not match anything alone, but changes the behaviour of how `approvers` filter work.
-If a group is selected as an approver, it means different users and groups according to different resolution options:
-- `do not resolve`: only the selected group, no group members are considered
-- `users and groups`: resolve the group memberships and use all direct and indirect members (including the selected group itself)
-- `only users`: resolve the group memberships and use all direct and indirect user members
-- `only groups`: resolve the group memberships and use all direct and indirect group members (including the selected group itself)
+If a group is selected as an approver filter value, it means different users and groups according to different resolution options:
+- `do not resolve`: use only the selected group to filter, no group members are considered
+- `users and groups`: resolve the group memberships and use all direct and indirect members (including the selected group itself) to filter
+- `only users`: resolve the group memberships and use all direct and indirect user members to filter
+- `only groups`: resolve the group memberships and use all direct and indirect group members (including the selected group itself) to filter
 
 Not selecting a `group resolution` is equivalent of using `do not resolve`.
 
