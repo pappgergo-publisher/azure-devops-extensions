@@ -1,6 +1,6 @@
 # End-User License Agreement
 
-This End-User License Agreement ("Agreement") is a legal agreement between you ("Licensee") - whether an individual or a legal entity - and Gergı Papp ("Licensor").
+This End-User License Agreement ("Agreement") is a legal agreement between you ("Licensee") - whether an individual or a legal entity - and Gerg≈ë Papp ("Licensor").
 By installing, copying, or otherwise using this software ("Software"), you agree to be bound by the terms of this Agreement.
 
 ## 1. Date of Effectivity
