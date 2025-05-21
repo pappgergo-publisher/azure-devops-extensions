@@ -77,4 +77,4 @@ please open a [Github issue](https://github.com/pappgergo-publisher/azure-devops
 - [Delegation widget](/flexible-approvals/widgets/delegation-widget.md)
 - [Extension features](/flexible-approvals/common/extension-features.md)
 - [Discussion](https://github.com/pappgergo-publisher/azure-devops-extensions/discussions)
-- [Issue](https://github.com/pappgergo-publisher/azure-devops-extensions/issues)
+- [Issues](https://github.com/pappgergo-publisher/azure-devops-extensions/issues)
