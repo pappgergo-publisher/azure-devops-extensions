@@ -5,7 +5,7 @@ By installing, copying, or otherwise using this software ("Software"), you agree
 
 ## 1. Date of Effectivity
 
-This Agreement is effective as of May 20th, 2025.
+This Agreement is effective as of May 21th, 2025.
 
 ## 2. Grant of License
 
